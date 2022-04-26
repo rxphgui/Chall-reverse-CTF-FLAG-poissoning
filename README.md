@@ -25,7 +25,9 @@ Le binaire possède comme protection PIE qui va faire que à chaque lancement le
    On sait qu'il n'est pas strippé et que c'est du 64 bit.
 ### IDA
 On va à présent le lancer dans [**IDA**](https://hex-rays.com/ida-free/) pour avoir une représentation du binaire. 
+
 ![](https://i.ibb.co/Bjw8ZG0/ida1.png)
+
 Nous allons regarder le pseudo code :
 
   ```
