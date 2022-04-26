@@ -124,7 +124,7 @@ On peut voir le mot de passe apparaître.
 ## Conclusion
 C'était un challenge assez sympa. Il est encore disponible sur leur CTFd si certains veulent le faire. Il demande certaine notion en reverse. Je recommande !!
 
-Le flag est "**flag{admin:Russian666}**".
+Le flag est "**flag{fait-frr}**".
 
 Thanks for Reading :" )
 
