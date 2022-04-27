@@ -31,7 +31,7 @@ On va à présent le lancer dans [**IDA**](https://hex-rays.com/ida-free/) pour 
 
 Nous allons regarder le pseudo code :
 
-  ```
+  ```c
   int __cdecl main(int argc, const char **argv, const char **envp)
 {
   char *v3; // rax
@@ -111,8 +111,8 @@ Nous n'avons plus qu'a faire comme toute à l'heure, mettre un breakpoint sur st
 
            int strcmp(const char *s1, const char *s2);
 
-Nous allons alors pouvoir voir ce qu'il a en mémoire avec gdb : 
-```
+Nous allons alors pouvoir voir ce qu'il a en mémoire avec gdb :
+```Assembly
 strcmp@plt (
    $rdi = 0x007fffffffdd70 → "1234567890",
    $rsi = 0x007fffffffdd40 → "Russian666",
