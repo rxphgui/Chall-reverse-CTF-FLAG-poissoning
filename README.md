@@ -87,12 +87,13 @@ On peut  voir le déroulement du programme, on va s'intéresser à la fonction s
        char *strstr(const char *haystack, const char *needle);
 Elle prend deux chaines de caractère comme argument.
 Si nous mettons un breakpoint sur le strstr, nous pourrons alors voir les éléments qu'il aura en mémoire  avec gdb : 
-
+```Assembly
     strstr@plt (
     $rdi = 0x007fffffffdd90 → "aaaaaaaaaaaa",
     $rsi = 0x007fffffffdd8a → 0x6161006e696d6461 ("admin"?),
     $rdx = 0x007fffffffdd8a → 0x6161006e696d6461 ("admin"?)
     )
+ ```
 
 Nous savons à présent que le nom d'utilisateur est "**admin**".
 Cela va nous permettre de débloquer la seconde vérification, celle du mot de passe.
